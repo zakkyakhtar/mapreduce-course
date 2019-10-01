@@ -1,9 +1,9 @@
 package com.tcs.bigdata.reducer;
 
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-import javax.xml.soap.Text;
 import java.io.IOException;
 
 public class WordCountReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
